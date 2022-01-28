@@ -1,12 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Text Typing Animation</title><br><br>
+        <style>
+            #typing {
+            width: 0ch;
+            color: black;
+            float: left;
+            font-family: sans-serif;
+            font-weight:bold;
+            font-size: 30px;
+            overflow: hidden;
+            white-space: nowrap;
+            animation: typing 3s steps(22) 1s infinite alternate;
+            }
+            #typing span{
+            color:#fb8c00;}
+            #line {
+            float: left;
+            color: black;
+            font-weight:bold;
+            font-size: 30px;
+            animation: crow 0.5s linear 0s infinite;
+            }
+            @keyframes typing {
+            from {
+            width: 0ch;
+            }
+            to {
+            width: 8ch;
+            }
+            }
+            @keyframes crow {
+            from {
+            opacity: 0;
+            }
+            to {
+            opacity: 1;
+            }
+            }
+        </style>
             <meta charset="UTF-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <title>Website St. Lucia</title>
             <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
+        <div id="typing">St. <span>Lucia</span></div>
+        <div id="line">|</div><br>
         <div class="wrapclock">
             <h5 id="greetings"></h5>
             <h2 id="clock"></h2>
@@ -17,6 +61,9 @@
         <div class="content1">
             <h1>Warta Lingkungan</h1>
             <h3>Renungan</h3>
+        </div>
+        <div class="isirenungan">
+            <h5 id="permenungan"></h5>
         </div>
     <script src="script.js"></script>
     </body>
