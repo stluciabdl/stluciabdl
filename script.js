@@ -27,9 +27,13 @@ const clock = () => {
       var greeting = "Selamat pagi " + name + " Tuhan memberkati";
     }
   
-    if (hours >= 12 && hours <= 18) {
+    if (hours >= 12 && hours <= 15) {
       var greeting = "Selamat siang " + name + " sekalian tetap semangat Tuhan memberkati<br>" + " Sugeng siang " + name + " sedanten Gusti paring berkah";
       
+    }
+
+    if (hours >= 15 && hours <= 18) {
+        var greeting ="Selamat sore " + name + " sekalian selamat bersantai Tuhan memberkati 🙏<br>" + " Sugeng sonten " + name + " sedaya monggo sami kendêl sekedap Gusti mberkahi🙏"
     }
   
     if (hours >= 18 && hours <= 24) {
