@@ -11,6 +11,18 @@ body
     background: rgb(255, 255, 255);
 }
 
+.isirenungan
+{
+    text-align: center;
+    padding: 20px 0 0;
+}
+
+.permenungan
+{
+    text-align: center;
+    padding: 20px 0 0;
+}
+
 .content1
 {
     text-align: center;
@@ -34,4 +46,22 @@ body
     text-align:center;
     width: 80%;
     height: auto;
+}
+
+.lingkungan
+{
+    text-align: center;
+    padding: 20px 0 0;
+}
+
+.typing
+{
+    text-align: center;
+    padding: 20px 0 0;
+}
+
+.line
+{
+    text-align: center;
+    padding: 20px 0 0;
 }
